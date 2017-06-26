@@ -1,0 +1,92 @@
+# idea stuff
+*.iml
+.idea/
+
+# scala staff
+*.class
+*.log
+
+#cmwell specific
+.credentials
+cmwell-core/cmwell-cons/app/components/
+cmwell-core/cmwell-cons/app/components-extras/
+cmwell-core/cmwell-cons/app/data/
+cmwell-core/cmwell-cons/app/docs/
+cmwell-core/cmwell-cons/app/lib
+cmwell-core/cmwell-cons/app/cons-lib
+cmwell-core/cmwell-cons/app/sys
+cmwell-core/cmwell-cons/app/dependencies
+cmwell-core/cmwell-cons/app/plugins
+cmwell-core/cmwell-spa/data/.brackets.json
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+
+#ensime
+.ensime
+.ensime_cache/
+
+# sbt elasticsearch plugin
+cmwell-core/cmwell-fts/data/*
+cmwell-core/cmwell-fts/*.gz
+
+# Scala-IDE specific
+.scala_dependencies
+.classpath
+.cache
+.project
+.settings/
+.metadata/
+
+#logs
+logs/
+
+#private notes
+*.note
+
+#latex
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
+*.tex.backup
+*.tex~
+
+# junk files
+.DS_Store
+*.out
+*.err
