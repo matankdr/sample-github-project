@@ -39,8 +39,8 @@ pipeline {
       steps {
         ansiColor(colorMapName: 'xterm') {
           dir(path: 'server') {
+            sh 'java -Dsbt.log.format=true -Dnexus.username=$USERNAME -Dnexus.password=$PASSWORD -jar /opt/sbt/bin/sbt-launch.jar dataTools/publish'
             archiveArtifacts 'cmwell-data-tools-app/target/*.zip'
-            sh 'java -Dsbt.log.format=true -Dnexus.username=$USERNAME -Dnexus.password=$PASSWORD -jar /opt/sbt/bin/sbt-launch.jar dataTools/publish '
           }
           
         }
